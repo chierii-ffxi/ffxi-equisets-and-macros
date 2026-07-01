@@ -1,4 +1,4 @@
-# 2026-06-10 08:46:26
+# 2026-07-01 20:36:25
 - index: 1
   name: BLM
   palettes:
@@ -286,12 +286,12 @@
       - ''
       - ''
     - index: 12
-      title: reffc☆
+      title: Burst6♪
       lines:
-      - 【/equipset】 110 echo [Fast Cast Nuking]
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【バースト】 II" <stnpc>
+      - 【/equipset】 106 <wait 3> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【サンダー】 VI"
       - ''
       - ''
     - index: 13
@@ -643,19 +643,19 @@
     - index: 11
       title: fcdt★
       lines:
-      - "【/equipset】 101 echo [FC/idle/DT]\0ercast]"
+      - 【/equipset】 101 echo [FC/idle/DT]
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 12
-      title: reffc☆
+      title: Quake2♪
       lines:
-      - 【/equipset】 110 echo [FC/idle/refresh]
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【クエイク】 II" <stnpc>
+      - 【/equipset】 106 <wait 3> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【クエイク】 II"
       - ''
       - ''
     - index: 13
@@ -877,21 +877,21 @@
       - ''
       - ''
     - index: 17
-      title: ''
+      title: Fir5free
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ファイア】 V" <stnpc>
+      - 【/equipset】 107 <wait 4> echo [FreeNuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ファイア】 V"
       - ''
       - ''
     - index: 18
-      title: ''
+      title: Ston5Fre
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【ストーン】 V" <stnpc>
+      - 【/equipset】 107 <wait 4> echo [FreeNuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【ストーン】 V"
       - ''
       - ''
     - index: 19
@@ -1726,10 +1726,10 @@
     - index: 10
       title: Burn
       lines:
-      - 【/equipset】 108 echo [Fast Cast]
       - 【/magic】 【バーン】 <stnpc>
-      - 【/equipset】 113 <wait 2>
+      - 【/equipset】 113 <wait 2> echo
       - 【/equipset】 103 echo [Aftercast]
+      - ''
       - ''
       - ''
     - index: 11
@@ -1790,9 +1790,9 @@
       title: Aspir3
       lines:
       - 【/magic】 "【アスピル】 III" <stnpc>
+      - 【/equip】 【首】 "【エーラペンダント】"
       - 【/equipset】 113 <wait 2> echo [MAcc]
       - 【/equipset】 103 echo [Aftercast]
-      - ''
       - ''
       - ''
     - index: 18
@@ -3788,27 +3788,27 @@
     - index: 16
       title: Shun
       lines:
-      - 【/equipset】 165
+      - 【/equipset】 165 echo
       - '【/weaponskill】 "Blade: Shun" <t> <wait>'
-      - 【/equipset】 164
+      - 【/equipset】 164 echo
       - ''
       - ''
       - ''
     - index: 17
       title: Metsu
       lines:
-      - 【/equipset】 165
+      - 【/equipset】 165 echo
       - 【/weaponskill】 "【生者必滅】" <t> <wait>
-      - 【/equipset】 164
+      - 【/equipset】 164 echo
       - ''
       - ''
       - ''
     - index: 18
       title: Savage
       lines:
-      - 【/equipset】 165
+      - 【/equipset】 165 echo
       - 【/weaponskill】 "【サベッジブレード】" <t> <wait>
-      - 【/equipset】 164
+      - 【/equipset】 164 echo
       - ''
       - ''
       - ''
@@ -3963,7 +3963,7 @@
       lines:
       - 【/equipset】 174 echo magic
       - 【/weaponskill】 "【地】" <t> <wait>
-      - 【/equipset】 164
+      - 【/equipset】 164 echo
       - ''
       - ''
       - ''
@@ -3972,7 +3972,7 @@
       lines:
       - 【/equipset】 174 echo magic
       - 【/weaponskill】 "【凍】" <t> <wait>
-      - 【/equipset】 164
+      - 【/equipset】 164 echo
       - ''
       - ''
       - ''
@@ -3981,7 +3981,7 @@
       lines:
       - 【/equipset】 165
       - 【/weaponskill】 "【迅】" <t> <wait>
-      - 【/equipset】 164
+      - 【/equipset】 164 echo
       - ''
       - ''
       - ''
@@ -4024,11 +4024,11 @@
       - ''
       - ''
     - index: 2
-      title: ''
+      title: Asu
       lines:
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 165 echo
+      - 【/weaponskill】 "【夢想阿修羅拳】" <t> <wait>
+      - 【/equipset】 164 echo
       - ''
       - ''
       - ''
@@ -5442,10 +5442,10 @@
       - ''
       - ''
     - index: 18
-      title: ''
+      title: Choco♪
       lines:
-      - ''
-      - ''
+      - 【/jobability】 "【チョコボジグ】" <me> <wait 2>
+      - 【/equipset】 163 echo
       - ''
       - ''
       - ''
@@ -5454,7 +5454,7 @@
       title: InSnea♪
       lines:
       - 【/jobability】 "【スペクトラルジグ】" <me> <wait 2>
-      - "【/equipset】 163\0p Ring\" <me>"
+      - 【/equipset】 163 echo
       - ''
       - ''
       - ''
@@ -5462,7 +5462,7 @@
     - index: 20
       title: kite★
       lines:
-      - 【/equipset】 163
+      - 【/equipset】 163 echo
       - ''
       - ''
       - ''
@@ -5564,9 +5564,9 @@
       - ''
       - ''
     - index: 11
-      title: taikiIdl
+      title: kite☆
       lines:
-      - /equipset 123
+      - 【/equipset】 123 echo
       - ''
       - ''
       - ''
@@ -5728,7 +5728,7 @@
       - ''
       - ''
     - index: 9
-      title: Lulla2
+      title: Lulla2♪
       lines:
       - /equip range 【ギャッラルホルン】
       - /ma "Horde Lullaby II" <stnpc>
@@ -5737,7 +5737,7 @@
       - ''
       - ''
     - index: 10
-      title: Lulla1
+      title: ☆Lulla1
       lines:
       - /equip range 【ギャッラルホルン】
       - /ma "Horde Lullaby" <stnpc>
@@ -5746,9 +5746,9 @@
       - ''
       - ''
     - index: 11
-      title: taikiIdl
+      title: kite☆
       lines:
-      - /equipset 123
+      - 【/equipset】 123 echo
       - ''
       - ''
       - ''
@@ -5840,7 +5840,7 @@
     - index: 1
       title: TPcarn
       lines:
-      - /equipset 126 echo
+      - 【/equipset】 126 echo
       - /equip main Carnwenhan
       - ''
       - ''
@@ -5850,7 +5850,7 @@
       title: Mordant
       lines:
       - 【/equipset】 125
-      - 【/weaponskill】 "【モーダントライム】" <t> <wait 4>
+      - 【/weaponskill】 "【モーダントライム】" <t> <wait>
       - 【/equipset】 126
       - ''
       - ''
@@ -5867,26 +5867,26 @@
     - index: 4
       title: d2
       lines:
-      - /equipset 128 echo FC
-      - '/ma "Utsusemi: Ni" <stpt> <wait 4>'
+      - 【/equipset】 128 echo FC
+      - '/ma "Utsusemi: Ni" <stpt> <me> <wait 4>'
       - 【/equipset】 126
       - ''
       - ''
       - ''
     - index: 5
-      title: haste
+      title: Elegy
       lines:
-      - /equipset 132
-      - /ma haste <stpt>
-      - ''
-      - ''
+      - /equip range 【ギャッラルホルン】
+      - /ma "Carnage Elegy" <t>
+      - /equipset 133 echo 敵歌 <wait 3>
+      - /equipset 140 echo Idle in fast cast
       - ''
       - ''
     - index: 6
-      title: blink
+      title: ''
       lines:
-      - /equipset 132
-      - /ma blink <me>
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -5946,10 +5946,10 @@
       - ''
       - ''
     - index: 13
-      title: ''
+      title: haste
       lines:
-      - ''
-      - ''
+      - /equipset 132
+      - /ma haste <stpt>
       - ''
       - ''
       - ''
@@ -7092,10 +7092,10 @@
       - ''
       - ''
     - index: 19
-      title: ''
+      title: warp★
       lines:
-      - ''
-      - ''
+      - /equipset 1 <wait 10>
+      - /item "Warp Ring" <me>
       - ''
       - ''
       - ''
@@ -8906,10 +8906,10 @@
       - ''
       - ''
     - index: 18
-      title: ''
+      title: warp★
       lines:
-      - ''
-      - ''
+      - 【/equipset】 1 <wait 10>
+      - 【/item】 "Warp Ring" <me>
       - ''
       - ''
       - ''
@@ -9097,9 +9097,9 @@
       - ''
       - ''
     - index: 19
-      title: DT/kit
+      title: kiteDT☆
       lines:
-      - /equipset 43
+      - /equipset 43 echo
       - ''
       - ''
       - ''
@@ -9212,7 +9212,7 @@
     - index: 11
       title: TP
       lines:
-      - 【/equipset】 64
+      - 【/equipset】 64 echo
       - ''
       - ''
       - ''
@@ -9221,16 +9221,16 @@
     - index: 12
       title: DT
       lines:
-      - 【/equipset】 67
+      - 【/equipset】 67 echo
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 13
-      title: ''
+      title: Haste
       lines:
-      - ''
+      - 【/jobability】 "【ヘイストサンバ】" <me>
       - ''
       - ''
       - ''
@@ -10666,54 +10666,54 @@
       - ''
       - ''
     - index: 11
-      title: PLD
+      title: ''
       lines:
-      - /ma August <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 12
-      title: COR
+      title: ''
       lines:
-      - /ma Qultada <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 13
-      title: WHM
+      title: ''
       lines:
-      - /ma Monberaux <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 14
-      title: BRD
+      title: ''
       lines:
-      - /ma Ulmia <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 15
-      title: WHM2
+      title: ''
       lines:
-      - /ma Cherukiki <me>
+      - ''
       - ''
       - ''
       - ''
       - ''
       - ''
     - index: 16
-      title: GEO
+      title: ''
       lines:
-      - /ma "Sylvie (UC)" <me>
+      - ''
       - ''
       - ''
       - ''
@@ -10830,10 +10830,10 @@
       - ''
       - ''
     - index: 9
-      title: ''
+      title: warp★
       lines:
-      - ''
-      - ''
+      - /equipset 1 <wait 10>
+      - /item "Warp Ring" <me>
       - ''
       - ''
       - ''
@@ -10961,10 +10961,10 @@
       - ''
       - ''
     - index: 3
-      title: Box
+      title: Haste
       lines:
-      - 【/jobability】 【プレスト】 <me> <wait 2>
-      - 【/jobability】 "【ボックスステップ】" <t>
+      - "【/jobability】 \"【ヘイストサンバ】\" <me>\0ait 2>"
+      - "\0\x02\x02\r\x15 \"【ボックスステップ】\" <t>"
       - ''
       - ''
       - ''
@@ -10979,10 +10979,10 @@
       - ''
       - ''
     - index: 5
-      title: ''
+      title: Box
       lines:
-      - ''
-      - ''
+      - 【/jobability】 【プレスト】 <me> <wait 2>
+      - 【/jobability】 "【ボックスステップ】" <t>
       - ''
       - ''
       - ''
@@ -10997,9 +10997,9 @@
       - ''
       - ''
     - index: 7
-      title: Haste
+      title: ''
       lines:
-      - 【/jobability】 "【ヘイストサンバ】" <me>
+      - ''
       - ''
       - ''
       - ''
@@ -12736,7 +12736,7 @@
     - index: 18
       title: Invis♪
       lines:
-      - 【/equipset】 74
+      - 【/equipset】 74 echo
       - 【/jobability】 "【スペクトラルジグ】" <me> <wait>
       - 【/recast】 "【スペクトラルジグ】"
       - ''
@@ -12745,7 +12745,7 @@
     - index: 19
       title: cJig♪
       lines:
-      - 【/equipset】 74
+      - 【/equipset】 74 echo
       - 【/jobability】 "【チョコボジグ】 II" <me> <wait>
       - 【/recast】 "【チョコボジグ】"
       - ''
@@ -12754,7 +12754,7 @@
     - index: 20
       title: kite★
       lines:
-      - 【/equipset】 74
+      - 【/equipset】 74 echo
       - 【/recast】 "【チョコボジグ】"
       - ''
       - ''
@@ -14661,20 +14661,20 @@
       - ''
       - ''
     - index: 9
-      title: ''
+      title: stCoro
       lines:
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 151 echo
+      - 【/weaponskill】 "【カラナック】" <stnpc> <wait>
+      - 【/equipset】 155 echo
       - ''
       - ''
       - ''
     - index: 10
-      title: ''
+      title: <st>TruF
       lines:
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 158 echo
+      - 【/weaponskill】 【トゥルーフライト】 <stnpc> <wait>
+      - 【/equipset】 155 echo [Engaged TP]
       - ''
       - ''
       - ''
@@ -14751,19 +14751,19 @@
       - ''
       - ''
     - index: 19
-      title: <st>TruF
+      title: Numb
       lines:
-      - 【/equipset】 158 echo
-      - 【/weaponskill】 【トゥルーフライト】 <stnpc> <wait>
-      - 【/equipset】 155 echo [Engaged TP]
+      - 【/equipset】 151 echo
+      - 【/weaponskill】 "【ナビングショット】" <t> <wait>
+      - 【/equipset】 155 echo
       - ''
       - ''
       - ''
     - index: 20
-      title: Wildfire
+      title: Coro
       lines:
-      - 【/equipset】 158 echo
-      - 【/weaponskill】 【ワイルドファイア】 <t> <wait 4>
+      - 【/equipset】 151 echo
+      - 【/weaponskill】 "【カラナック】" <t> <wait>
       - 【/equipset】 155 echo
       - ''
       - ''
@@ -14852,11 +14852,11 @@
       - ''
       - ''
     - index: 10
-      title: ''
+      title: Wildfire
       lines:
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 158 echo
+      - 【/weaponskill】 【ワイルドファイア】 <t> <wait 4>
+      - 【/equipset】 155 echo
       - ''
       - ''
       - ''
@@ -15216,10 +15216,10 @@
       - ''
       - ''
     - index: 10
-      title: ''
+      title: InSnea♪
       lines:
-      - ''
-      - ''
+      - 【/jobability】 "【スペクトラルジグ】" <me> <wait 2>
+      - 【/equipset】 163
       - ''
       - ''
       - ''
@@ -15227,7 +15227,7 @@
     - index: 11
       title: melTP
       lines:
-      - 【/equipset】 155
+      - 【/equipset】 155 echo
       - 【/equip】 【レンジウェポン】 "Sparrowhawk +2"
       - 【/equip】 【メインウェポン】 "Naegling"
       - 【/equip】 【矢弾】 "hausbok arrow"
@@ -15237,7 +15237,7 @@
       title: Haste
       lines:
       - 【/jobability】 "【ヘイストサンバ】" <me>
-      - "\0\x02\x02\rｦ 155"
+      - ''
       - ''
       - ''
       - ''
@@ -15246,7 +15246,7 @@
       title: CW3
       lines:
       - 【/jobability】 "【ケアルワルツ】 III" <me> <wait 3>
-      - 【/equipset】 155
+      - 【/equipset】 155 echo
       - ''
       - ''
       - ''
@@ -16227,14 +16227,14 @@
   - index: 10
     macros:
     - index: 1
-      title: ''
+      title: synth
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
+      - /lastsynth <wait 15>
+      - /lastsynth <wait 15>
+      - /lastsynth <wait 15>
+      - /lastsynth <wait 15>
+      - /lastsynth <wait 15>
+      - /lastsynth <wait 15>
     - index: 2
       title: ''
       lines:
@@ -16362,10 +16362,10 @@
       - ''
       - ''
     - index: 16
-      title: ''
+      title: InSnea♪
       lines:
-      - ''
-      - ''
+      - 【/jobability】 "【スペクトラルジグ】" <me> <wait 2>
+      - 【/equipset】 163
       - ''
       - ''
       - ''
@@ -16380,9 +16380,9 @@
       - ''
       - ''
     - index: 18
-      title: BountyTH
+      title: ''
       lines:
-      - 【/equipset】 153 echo [BountyShot TH on]
+      - ''
       - ''
       - ''
       - ''
@@ -63718,9 +63718,9 @@
       - ''
       - ''
     - index: 10
-      title: ''
+      title: kite★
       lines:
-      - ''
+      - 【/equipset】 154
       - ''
       - ''
       - ''
