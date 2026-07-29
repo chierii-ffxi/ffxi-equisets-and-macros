@@ -1,4 +1,4 @@
-# 2026-07-01 20:36:25
+# 2026-07-30 07:30:13
 - index: 1
   name: BLM
   palettes:
@@ -560,12 +560,12 @@
       - ''
       - ''
     - index: 2
-      title: reffc☆
+      title: Flare2♪
       lines:
-      - 【/equipset】 110 echo [FC/idle/refresh]
-      - ''
-      - ''
-      - ''
+      - 【/magic】 "【フレア】 II" <stnpc>
+      - 【/equipset】 106 <wait 3> echo [Nuke]
+      - 【/equipset】 103 echo [Aftercast]
+      - 【/recast】 "【フレア】 II"
       - ''
       - ''
     - index: 3
@@ -3750,13 +3750,13 @@
       - ''
       - ''
     - index: 12
-      title: Migawari
+      title: Haste
       lines:
-      - 【/equipset】 168 echo
-      - '【/magic】 "Migawari: Ichi" <me> <wait 1>'
-      - '【/recast】 "Utsusemi: San"'
-      - 【/equipset】 164 echo
-      - '【/recast】 "Migawari: Ichi"'
+      - 【/jobability】 "【ヘイストサンバ】" <me>
+      - "\0\x02\x02\rY \"Migawari: Ichi\" <me> <wait 1>"
+      - "\0\x02\x02\r� \"Utsusemi: San\""
+      - "\0\x02\x02\rｦ 164 echo"
+      - "\0\x02\x02\r� \"Migawari: Ichi\""
       - ''
     - index: 13
       title: d1
@@ -3822,9 +3822,9 @@
       - '【/recast】 "Myoshu: Ichi"'
       - ''
     - index: 20
-      title: Haste
+      title: ''
       lines:
-      - 【/jobability】 "【ヘイストサンバ】" <me>
+      - ''
       - ''
       - ''
       - ''
@@ -3842,13 +3842,13 @@
       - ''
       - ''
     - index: 2
-      title: ''
+      title: Migawari
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 168 echo
+      - '【/magic】 "Migawari: Ichi" <me> <wait 1>'
+      - '【/recast】 "Utsusemi: San"'
+      - 【/equipset】 164 echo
+      - '【/recast】 "Migawari: Ichi"'
       - ''
     - index: 3
       title: ''
@@ -3896,11 +3896,11 @@
       - ''
       - ''
     - index: 8
-      title: ''
+      title: Evis
       lines:
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 165 echo
+      - 【/weaponskill】 "【エヴィサレーション】" <t> <wait>
+      - 【/equipset】 164 echo
       - ''
       - ''
       - ''
@@ -5476,12 +5476,12 @@
     - index: 1
       title: '[ ni'
       lines:
-      - /equip feet "Bihu Slippers +3"
-      - /equip body "Bihu Jstcorps. +3"
-      - /ja 【ナイチンゲール】 <me>
-      - /p ～ ♪ うたう ♪ ～
-      - /echo [Nightingale] Dont forget troubadour!
-      - /recast 【ナイチンゲール】
+      - 【/equip】 feet "Bihu Slippers +3"
+      - 【/equip】 body "Bihu Jstcorps. +3"
+      - 【/jobability】 【ナイチンゲール】 <me>
+      - 【/party】 ～ ♪ うたう ♪ ～
+      - 【/echo】 【ナイチンゲール】 >> 【トルバドゥール】
+      - 【/recast】 【ナイチンゲール】
     - index: 2
       title: trou ]
       lines:
@@ -5505,7 +5505,7 @@
       lines:
       - /ma "Valor Minuet III" <stpt>
       - /equipset 129 echo Song Effect
-      - /equip feet "【ＢＲスリッパー+3】" <wait 2>
+      - /equip feet "Brioso Slippers +4" <wait 2>
       - /equipset 140 echo Idle in fast cast
       - ''
       - ''
@@ -5514,7 +5514,7 @@
       lines:
       - /ma "Valor Minuet IV" <stpt>
       - /equipset 129 echo Song Effect
-      - /equip feet "【ＢＲスリッパー+3】" <wait 3>
+      - /equip feet "Brioso Slippers +4" <wait 3>
       - /equipset 140 echo Idle in fast cast
       - ''
       - ''
@@ -5523,7 +5523,7 @@
       lines:
       - /ma "Valor Minuet V" <stpt>
       - /equipset 129 echo Song Effect
-      - /equip feet "【ＢＲスリッパー+3】" <wait 3>
+      - /equip feet "Brioso Slippers +4" <wait 3>
       - /equipset 140 echo Idle in fast cast
       - ''
       - ''
@@ -5532,7 +5532,7 @@
       lines:
       - /ma "Victory March" <stpt>
       - /equipset 129 echo Song Effect
-      - /equip feet "【ＢＲスリッパー+3】" <wait 4>
+      - /equip feet "Brioso Slippers +4" <wait 4>
       - /equipset 140 echo Idle in fast cast
       - ''
       - ''
@@ -5604,7 +5604,7 @@
       lines:
       - /ma "Valor Minuet II" <stpt>
       - /equipset 129 echo Song Effect
-      - /equip feet "【ＢＲスリッパー+3】" <wait 3>
+      - /equip feet "Brioso Slippers +4" <wait 3>
       - /equipset 140 echo Idle in fast cast
       - ''
       - ''
@@ -5613,7 +5613,7 @@
       lines:
       - /ma "Mage's Ballad II" <stpt>
       - /equipset 129 echo Song Effect
-      - /equip feet "【ＢＲスリッパー+3】" <wait 3>
+      - /equip feet "Brioso Slippers +4" <wait 3>
       - /equipset 140 echo Idle in fast cast
       - ''
       - ''
@@ -5631,7 +5631,7 @@
       lines:
       - /ma "Mage's Ballad III" <stpt>
       - /equipset 129 echo Song Effect
-      - /equip feet "【ＢＲスリッパー+3】" <wait 3>
+      - /equip feet "Brioso Slippers +4" <wait 3>
       - /equipset 140 echo Idle in fast cast
       - ''
       - ''
@@ -5641,7 +5641,7 @@
       - /ma "Knight's Minne V" <stpt>
       - /equipset 129 echo Song Effect
       - '/equip legs "Mou. Seraweels +1" '
-      - /equip feet "【ＢＲスリッパー+3】" <wait 3>
+      - /equip feet "Brioso Slippers +4" <wait 3>
       - /equipset 140 echo Idle in fast cast
       - ''
     - index: 20
@@ -5650,7 +5650,7 @@
       - /ma "Knight's Minne IV" <stpt>
       - /equipset 129 echo Song Effect
       - '/equip legs "Mou. Seraweels +1" '
-      - /equip feet "【ＢＲスリッパー+3】" <wait 3>
+      - /equip feet "Brioso Slippers +4" <wait 3>
       - /equipset 140 echo Idle in fast cast
       - ''
   - index: 2
@@ -5730,7 +5730,7 @@
     - index: 9
       title: Lulla2♪
       lines:
-      - /equip range 【ギャッラルホルン】
+      - /equip range Daurdabla
       - /ma "Horde Lullaby II" <stnpc>
       - /equipset 134 echo 敵歌 <wait 3>
       - /equipset 140 echo Idle in fast cast
@@ -5755,12 +5755,12 @@
       - ''
       - ''
     - index: 12
-      title: ''
+      title: Carol♪
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - /ma "Lightning Carol" <stpt>
+      - /equipset 129 echo Song Effect
+      - /equip feet "Brioso Slippers +4" <wait 3>
+      - /equipset 140 echo Idle in fast cast
       - ''
       - ''
     - index: 13
@@ -7202,9 +7202,9 @@
       - ''
       - ''
     - index: 11
-      title: wake
+      title: wakeUp
       lines:
-      - /equip main "Mpu Gandring"
+      - 【/equip】 【メインウェポン】 "Mpu Gandring"
       - ''
       - ''
       - ''
@@ -7222,10 +7222,10 @@
     - index: 13
       title: Mad
       lines:
-      - /ma "Blade Madrigal" <stpt>
-      - /equipset 129 echo Song Effect
-      - /equip feet "【ＢＲスリッパー+3】" <wait 4>
-      - /equipset 140 echo Idle in fast cast
+      - 【/magic】 "Blade Madrigal" <stpt>
+      - 【/equipset】 129 echo Song Effect
+      - 【/equip】 【両足】 "Brioso Slippers +4" <wait 4>
+      - 【/equipset】 140 echo Idle in fast cast
       - ''
       - ''
     - index: 14
@@ -7276,10 +7276,10 @@
     - index: 19
       title: mazurka
       lines:
-      - /ma "chocobo mazurka" <me>
-      - /equipset 129 echo Song Effect
-      - /equip feet "【ＢＲスリッパー+3】" <wait 3>
-      - /equipset 140 echo Idle in fast cast
+      - 【/magic】 "chocobo mazurka" <me>
+      - 【/equipset】 129 echo Song Effect
+      - 【/equip】 【両足】 "Brioso Slippers +4" <wait 3>
+      - 【/equipset】 140 echo Idle in fast cast
       - ''
       - ''
     - index: 20
@@ -9258,9 +9258,9 @@
       title: bHowl
       lines:
       - /ja 【ためる】 <me> <wait 1>
-      - 【/equipset】 65
+      - 【/equipset】 65 echo
       - 【/weaponskill】 "【空鳴拳】" <t> <wait 4>
-      - 【/equipset】 64
+      - 【/equipset】 64 echo
       - ''
       - ''
     - index: 17
@@ -15162,11 +15162,11 @@
       - ''
       - ''
     - index: 4
-      title: ''
+      title: ヴぃ
       lines:
-      - ''
-      - ''
-      - ''
+      - 【/equipset】 157 echo
+      - 【/weaponskill】 "【エヴィサレーション】" <t> <wait>
+      - 【/equipset】 155 echo
       - ''
       - ''
       - ''
@@ -15216,10 +15216,10 @@
       - ''
       - ''
     - index: 10
-      title: InSnea♪
+      title: ''
       lines:
-      - 【/jobability】 "【スペクトラルジグ】" <me> <wait 2>
-      - 【/equipset】 163
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -15297,9 +15297,9 @@
       - ''
       - ''
     - index: 19
-      title: ''
+      title: InSnea♪
       lines:
-      - ''
+      - 【/jobability】 "【スペクトラルジグ】" <me> <wait 2>
       - ''
       - ''
       - ''
@@ -15308,7 +15308,7 @@
     - index: 20
       title: kite★
       lines:
-      - "【/equipset】 154\054 echo Kite/Idle/DT"
+      - 【/equipset】 154
       - ''
       - ''
       - ''
