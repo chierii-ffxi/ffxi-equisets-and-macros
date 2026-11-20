@@ -1,4 +1,4 @@
-# 2026-11-20 21:02:26
+# 2026-11-20 21:10:23
 - index: 1
   name: BLM
   palettes:
@@ -5477,7 +5477,7 @@
       title: '[ ni'
       lines:
       - 【/equip】 feet "Bihu Slippers +3"
-      - 【/equip】 body "Bihu Jstcorps. +4"
+      - 【/equip】 body "【ＢＩジュストコル+3】"
       - 【/jobability】 【ナイチンゲール】 <me>
       - 【/party】 ～ ♪ うたう ♪ ～
       - 【/echo】 【ナイチンゲール】 >> 【トルバドゥール】
