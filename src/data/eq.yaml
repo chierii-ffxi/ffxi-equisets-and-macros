@@ -1,4 +1,4 @@
-# 2026-07-30 07:30:10
+# 2026-11-20 21:02:23
 - index: 1
   title: WarpMea
   items:
@@ -8268,13 +8268,13 @@
     slot: 8
     item: 24124
   - index: 7
-    storage: 45
-    slot: 15
-    item: ＢＩカフス+3
+    storage: 1
+    slot: 62
+    item: 24017
   - index: 8
-    storage: 45
-    slot: 76
-    item: ＢＩキャニオンズ+3
+    storage: 1
+    slot: 35
+    item: 24062
   - index: 9
     storage: 45
     slot: 11
@@ -8335,9 +8335,9 @@
     slot: 14
     item: ＢＩジュストコル+3
   - index: 7
-    storage: 45
-    slot: 15
-    item: ＢＩカフス+3
+    storage: 1
+    slot: 62
+    item: 24017
   - index: 8
     storage: 45
     slot: 76
@@ -8406,9 +8406,9 @@
     slot: 19
     item: ニャメガントレ
   - index: 8
-    storage: 33
-    slot: 17
-    item: ニャメフランチャ
+    storage: 1
+    slot: 35
+    item: 24062
   - index: 9
     storage: 41
     slot: 47
@@ -8871,9 +8871,9 @@
     slot: 49
     item: 23949
   - index: 7
-    storage: 33
-    slot: 12
-    item: ＢＲカフス+2
+    storage: 1
+    slot: 62
+    item: 24017
   - index: 8
     storage: 45
     slot: 72
@@ -9277,9 +9277,9 @@
     slot: 19
     item: ニャメガントレ
   - index: 8
-    storage: 33
-    slot: 17
-    item: ニャメフランチャ
+    storage: 1
+    slot: 35
+    item: 24062
   - index: 9
     storage: 41
     slot: 47

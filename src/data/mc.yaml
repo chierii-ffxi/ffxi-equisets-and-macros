@@ -1,4 +1,4 @@
-# 2026-07-30 07:30:13
+# 2026-11-20 21:02:26
 - index: 1
   name: BLM
   palettes:
@@ -3753,10 +3753,10 @@
       title: Haste
       lines:
       - 【/jobability】 "【ヘイストサンバ】" <me>
-      - "\0\x02\x02\rY \"Migawari: Ichi\" <me> <wait 1>"
-      - "\0\x02\x02\r� \"Utsusemi: San\""
-      - "\0\x02\x02\rｦ 164 echo"
-      - "\0\x02\x02\r� \"Migawari: Ichi\""
+      - ''
+      - ''
+      - ''
+      - ''
       - ''
     - index: 13
       title: d1
@@ -5477,7 +5477,7 @@
       title: '[ ni'
       lines:
       - 【/equip】 feet "Bihu Slippers +3"
-      - 【/equip】 body "Bihu Jstcorps. +3"
+      - 【/equip】 body "Bihu Jstcorps. +4"
       - 【/jobability】 【ナイチンゲール】 <me>
       - 【/party】 ～ ♪ うたう ♪ ～
       - 【/echo】 【ナイチンゲール】 >> 【トルバドゥール】
@@ -5486,7 +5486,7 @@
       title: trou ]
       lines:
       - /equip feet "Bihu Slippers +3"
-      - /equip body "Bihu Jstcorps. +3"
+      - /equip body "【ＢＩジュストコル+3】"
       - /ja 【トルバドゥール】 <me>
       - /echo [Troubadour] Dont forget 【ナイチンゲール】
       - /recast 【トルバドゥール】
@@ -5494,7 +5494,7 @@
     - index: 3
       title: Soul
       lines:
-      - 【/equip】 legs "【ＢＩキャニオンズ+3】"
+      - 【/equip】 legs "【0x7:24062】"
       - /ja "【ソウルボイス】" <me>
       - ''
       - ''
@@ -14661,7 +14661,7 @@
       - ''
       - ''
     - index: 9
-      title: stCoro
+      title: <st>Coro
       lines:
       - 【/equipset】 151 echo
       - 【/weaponskill】 "【カラナック】" <stnpc> <wait>
@@ -14682,8 +14682,8 @@
       title: hybridTP
       lines:
       - 【/equipset】 155
-      - 【/equip】 【レンジウェポン】 Holliday
-      - 【/equip】 【矢弾】 "Eminent Bullet"
+      - 【/equip】 【レンジウェポン】 Annihilator
+      - 【/equip】 【矢弾】 "Eradicating Bullet"
       - ''
       - ''
       - ''
@@ -15162,7 +15162,7 @@
       - ''
       - ''
     - index: 4
-      title: ヴぃ
+      title: Evisc
       lines:
       - 【/equipset】 157 echo
       - 【/weaponskill】 "【エヴィサレーション】" <t> <wait>
@@ -16337,7 +16337,7 @@
     - index: 13
       title: ShadowBd
       lines:
-      - 【/jobability】 【影縫い】 <t>
+      - /echo 【/jobability】 【影縫い】 <t>
       - ''
       - ''
       - ''
