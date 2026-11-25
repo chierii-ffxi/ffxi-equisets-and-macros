@@ -1,4 +1,4 @@
-# 2026-11-20 21:10:23
+# 2026-11-25 20:10:02
 - index: 1
   name: BLM
   palettes:
@@ -167,7 +167,7 @@
       - ''
       - ''
     - index: 19
-      title: tmp_MP
+      title: tmpidlMP
       lines:
       - ''
       - ''
@@ -1688,11 +1688,11 @@
       - ''
       - ''
     - index: 6
-      title: Manawell
+      title: ''
       lines:
-      - 【/jobability】 【魔力の雫】 <me>
-      - 【/echo】 [【魔力の雫】 >> Impact]
-      - 【/recast】 【魔力の雫】
+      - ''
+      - ''
+      - ''
       - ''
       - ''
       - ''
@@ -1846,12 +1846,12 @@
       - /equipset 184 echo <wait 2>
       - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 3
-      title: Curaga3
+      title: Curaga4
       lines:
       - 【/equip】 【胴】 "【インヤガジュバ+2】"
       - /equip hands "【ファナチクグローブ】"
       - /equip legs "Pinga Pants"
-      - /ma "Curaga III" <st>
+      - /ma "Curaga IV" <st>
       - /equipset 184 echo <wait 2>
       - 【/equipset】 183 echo [Idle/FC/Refresh]
     - index: 4
@@ -5476,7 +5476,7 @@
     - index: 1
       title: '[ ni'
       lines:
-      - 【/equip】 feet "Bihu Slippers +3"
+      - 【/equip】 feet "【ＢＩスリッパー+3】"
       - 【/equip】 body "【ＢＩジュストコル+3】"
       - 【/jobability】 【ナイチンゲール】 <me>
       - 【/party】 ～ ♪ うたう ♪ ～
@@ -5485,8 +5485,8 @@
     - index: 2
       title: trou ]
       lines:
-      - /equip feet "Bihu Slippers +3"
-      - /equip body "【ＢＩジュストコル+3】"
+      - 【/equip】 feet "【ＢＩスリッパー+3】"
+      - 【/equip】 body "【ＢＩジュストコル+3】"
       - /ja 【トルバドゥール】 <me>
       - /echo [Troubadour] Dont forget 【ナイチンゲール】
       - /recast 【トルバドゥール】
@@ -5576,7 +5576,7 @@
       title: Clarion
       lines:
       - /ja "【クラリオンコール】" <me>
-      - /p ～ ♪ 【クラリオンコール】 ♪ ～
+      - /echo ～ ♪ 【クラリオンコール】 ♪ ～
       - /echo [Nightingale] Dont forget troubadour!
       - ''
       - ''
@@ -5841,8 +5841,8 @@
       title: TPcarn
       lines:
       - 【/equipset】 126 echo
-      - /equip main Carnwenhan
-      - ''
+      - /equip main 【カルンウェナン】
+      - /equip sub "【クラーケンクラブ】"
       - ''
       - ''
       - ''
@@ -5883,12 +5883,12 @@
       - ''
       - ''
     - index: 6
-      title: ''
+      title: ☆Lulla1
       lines:
-      - ''
-      - ''
-      - ''
-      - ''
+      - /equip range 【ギャッラルホルン】
+      - /ma "Horde Lullaby" <stnpc>
+      - /equipset 134 echo 敵歌 <wait 3>
+      - /equipset 140 echo Idle in fast cast
       - ''
       - ''
     - index: 7
@@ -5931,8 +5931,8 @@
       title: TPnaeg
       lines:
       - /equipset 126 echo
-      - /equip main Naegling
-      - ''
+      - /equip main 【ネイグリング】
+      - /equip sub "【クラーケンクラブ】"
       - ''
       - ''
       - ''
@@ -7101,9 +7101,9 @@
       - ''
       - ''
     - index: 20
-      title: ''
+      title: kite☆
       lines:
-      - ''
+      - 【/equipset】 123 echo
       - ''
       - ''
       - ''
@@ -7193,9 +7193,9 @@
       - ''
       - ''
     - index: 10
-      title: ''
+      title: kite☆
       lines:
-      - ''
+      - 【/equipset】 123 echo
       - ''
       - ''
       - ''
